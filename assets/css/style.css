@@ -1,0 +1,143 @@
+* {
+  box-sizing:border-box;
+  
+}
+
+
+body {
+    background: lightsteelblue;
+    color: black;
+    margin: 0px;
+    padding: 0px;
+    font-family: Georgia,"Times New Roman", Times, serif;
+    font-size: 16px;
+    line-height: 125%;
+    
+}
+
+
+#jpjumbotron {
+    color:lightsteelblue;
+    background-color: black;
+    margin: 0;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 28px;
+    border-top-width: 150px;
+    
+}
+
+
+
+
+#jpatino { 
+    position: relative;
+    top: 8px;
+    left: -1px;
+ 
+
+    border:20px solid whitesmoke;
+    background: whitesmoke;
+}
+
+
+
+p::first-line {
+    color:slateblue;
+    font-variant: small-caps;;
+    font-variant: small-caps;
+    
+}
+
+
+p {
+    float: left;
+    overflow: auto;
+    
+}
+
+
+
+
+#hulk{
+    position: relative;
+    top: -20px;
+    float: auto;
+    width: 100%;
+    
+    
+}
+#hulkvid {
+    float: auto;
+    width: 100%;
+
+}
+
+
+
+h1 {
+    color:lightsteelblue;
+    background-color: black;
+    margin: 0;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 28px;
+}
+
+
+h2 {
+    font-size: 24px;
+}
+
+a {
+    color: red;
+}
+
+.container {
+    display: flex; /* or inline-flex */
+    align-content: space-between;
+   
+   
+}
+
+#main-bio,
+#contact-info,
+#bio-image {
+    float: left;
+}
+
+#main-bio {
+    width: 70%;
+}
+
+#contact-info {
+    width: 30%
+}
+
+#bio-image {
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+  }
+.container2 {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+#footer {
+    position: relative;
+    top: -20px;
+ 
+
+}
+
+
+/* #bmw {
+      width: 250px;
+      height: 250px;
+      float: left;
+      
+  } */
+ 
